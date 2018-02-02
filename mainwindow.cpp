@@ -19,3 +19,8 @@ void MainWindow::on_pushButton_clicked()
     ui->pushButton->setText(ui->pushButton->text()+QString("Hello~~~"));
     ui->listWidget->addItem(QString("Hello!!!"));
 }
+
+void MainWindow::on_pushButton_2_pressed()
+{
+    ui->pushButton_2->setText(QString("fuck you vs "));
+}

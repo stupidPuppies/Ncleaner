@@ -38,4 +38,9 @@ Makefile*
 CMakeLists.txt.user*
 
 vs
-
+*.vcxpr*
+debug
+release
+.vs
+GeneratedFiles
+x64
