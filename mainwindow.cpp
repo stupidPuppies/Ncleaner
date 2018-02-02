@@ -12,3 +12,10 @@ MainWindow::~MainWindow()
 {
     delete ui;
 }
+
+
+void MainWindow::on_pushButton_clicked()
+{
+    ui->pushButton->setText(ui->pushButton->text()+QString("Hello~~~"));
+    ui->listWidget->addItem(QString("Hello!!!"));
+}
